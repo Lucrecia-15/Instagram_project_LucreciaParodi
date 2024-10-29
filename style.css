@@ -1,0 +1,87 @@
+.Post { display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black; 
+    width: 300px; ;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    
+      
+}
+
+.insta{display: flex;
+    justify-content: start;
+    position: relative;
+    bottom: -60px;
+    font-size: 30px;
+    background-color: white;
+    padding: 9px;
+    
+     }
+.options{
+        display: flex;
+    justify-content: end;
+    background-color: white;
+    position: relative;
+    bottom: -170px;
+    right: -142px;
+    transform: rotate(270deg);
+    font-size: medium;  
+    
+     }
+     
+
+.post-header {   
+    background-color: white;
+    text-align: left;
+    line-height: 0%; 
+    position: relative;
+    left: -38px;
+    font-size: 12px; 
+    margin: auto;    
+    
+}
+
+.post-image {
+   width: 100%;
+   padding: -1px;
+   display:flex;
+   flex-direction: column;
+   background-color: white;  
+   visibility:visible;
+   position: relative;
+   
+}
+.post-body {    
+    margin:auto;
+    width: 98%;
+    background-color: white;  
+    text-align:start;
+    font-size: 12px;
+    position: relative;
+    top: -28px;
+    padding-left: 2%;
+    
+    
+     
+      
+}
+.iconos{display:flex;
+    justify-content:start;
+    background-color: white;
+    position: relative;
+    top: -5px;
+    font-size: 15px;
+    padding: 7px;
+    
+}
+
+.book{display: flex;
+     justify-content: end;
+     position: relative;
+     top: -30px;
+     right: 3px;   
+         
+    }
+
